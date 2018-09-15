@@ -25,32 +25,16 @@ static __attribute__((constructor)) void entry(){
     }];
 }
 
-@interface CustomViewController
-
--(NSString*)getMyName;
-
-@end
-
-CHDeclareClass(CustomViewController)
-
-CHOptimizedMethod(0, self, NSString*, CustomViewController,getMyName){
-    //get origin value
-    NSString* originName = CHSuper(0, CustomViewController, getMyName);
-    
-    NSLog(@"origin name is:%@",originName);
-    
-    //get property
-    NSString* password = CHIvar(self,_password,__strong NSString*);
-    
-    NSLog(@"password is %@",password);
-    
-    //change the value
-    return @"AloneMonkey";
-    
+CHDeclareClass(ManualAuthAesReqData)
+CHOptimizedMethod1(self, void, ManualAuthAesReqData, setBundleId, NSString*, bundleId){
+    bundleId = @"com.tencent.xin";
+    CHSuper1(ManualAuthAesReqData, setBundleId, bundleId);
 }
 
 CHConstructor{
-    CHLoadLateClass(CustomViewController);
-    CHClassHook(0, CustomViewController, getMyName);
+    
+    CHLoadLateClass(ManualAuthAesReqData);
+    CHClassHook1(ManualAuthAesReqData, setBundleId);
+    
 }
 

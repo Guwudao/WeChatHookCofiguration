@@ -25,6 +25,34 @@
 		8C2270AA214D4BE0007C78DB /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2270A9214D4BE0007C78DB /* fishhook.h */; };
 		8C2270AC214D4BE0007C78DB /* WeChatHookDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2270AB214D4BE0007C78DB /* WeChatHookDylib.h */; };
 		8C2270AE214D4BE0007C78DB /* WeChatHookDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2270AD214D4BE0007C78DB /* WeChatHookDylib.m */; };
+		8C2270F7214D4E3B007C78DB /* TKEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2270F1214D4E3A007C78DB /* TKEditViewController.h */; };
+		8C2270F8214D4E3B007C78DB /* TKEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2270F2214D4E3A007C78DB /* TKEditViewController.m */; };
+		8C2270F9214D4E3B007C78DB /* TKChatRoomSensitiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2270F3214D4E3A007C78DB /* TKChatRoomSensitiveViewController.m */; };
+		8C2270FA214D4E3B007C78DB /* EmoticonGameCheat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2270F4214D4E3A007C78DB /* EmoticonGameCheat.h */; };
+		8C2270FB214D4E3B007C78DB /* EmoticonGameCheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2270F5214D4E3B007C78DB /* EmoticonGameCheat.m */; };
+		8C2270FC214D4E3B007C78DB /* TKChatRoomSensitiveViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2270F6214D4E3B007C78DB /* TKChatRoomSensitiveViewController.h */; };
+		8C227103214D4E47007C78DB /* TKRobotConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2270FD214D4E46007C78DB /* TKRobotConfig.m */; };
+		8C227104214D4E47007C78DB /* TKRobotConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2270FE214D4E46007C78DB /* TKRobotConfig.h */; };
+		8C227105214D4E47007C78DB /* TKSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2270FF214D4E46007C78DB /* TKSettingViewController.h */; };
+		8C227106214D4E47007C78DB /* TKMultiSelectContactsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227100214D4E46007C78DB /* TKMultiSelectContactsViewController.h */; };
+		8C227107214D4E47007C78DB /* TKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227101214D4E46007C78DB /* TKSettingViewController.m */; };
+		8C227108214D4E47007C78DB /* TKMultiSelectContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227102214D4E46007C78DB /* TKMultiSelectContactsViewController.m */; };
+		8C227112214D4E52007C78DB /* UIScreen+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227109214D4E52007C78DB /* UIScreen+Extend.m */; };
+		8C227113214D4E52007C78DB /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22710A214D4E52007C78DB /* UIView+Layout.m */; };
+		8C227114214D4E52007C78DB /* TKToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22710B214D4E52007C78DB /* TKToast.m */; };
+		8C227115214D4E52007C78DB /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22710C214D4E52007C78DB /* UIView+Layout.h */; };
+		8C227116214D4E52007C78DB /* Tweak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C22710D214D4E52007C78DB /* Tweak.mm */; };
+		8C227117214D4E52007C78DB /* TKToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22710E214D4E52007C78DB /* TKToast.h */; };
+		8C227118214D4E52007C78DB /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22710F214D4E52007C78DB /* UIColor+Extend.m */; };
+		8C227119214D4E52007C78DB /* UIColor+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227110214D4E52007C78DB /* UIColor+Extend.h */; };
+		8C22711A214D4E52007C78DB /* UIScreen+Extend.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227111214D4E52007C78DB /* UIScreen+Extend.h */; };
+		8C22711C214D4E5A007C78DB /* WeChatRobot.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22711B214D4E5A007C78DB /* WeChatRobot.h */; };
+		8C227123214D4E64007C78DB /* zhFullView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22711D214D4E63007C78DB /* zhFullView.h */; };
+		8C227124214D4E64007C78DB /* zhFullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22711E214D4E64007C78DB /* zhFullView.m */; };
+		8C227125214D4E64007C78DB /* zhIconLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22711F214D4E64007C78DB /* zhIconLabel.m */; };
+		8C227126214D4E64007C78DB /* zhPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227120214D4E64007C78DB /* zhPopupController.h */; };
+		8C227127214D4E64007C78DB /* zhPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227121214D4E64007C78DB /* zhPopupController.m */; };
+		8C227128214D4E64007C78DB /* zhIconLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227122214D4E64007C78DB /* zhIconLabel.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +87,7 @@
 		8C227088214D4BDF007C78DB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		8C22708A214D4BDF007C78DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C22708C214D4BDF007C78DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8C227090214D4BDF007C78DB /* WeChatHookDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = WeChatHookDylib.xm; path = Logos/WeChatHookDylib.xm; sourceTree = "<group>"; };
+		8C227090214D4BDF007C78DB /* WeChatHookDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = WeChatHookDylib.xm; path = Logos/WeChatHookDylib.xm; sourceTree = "<group>"; };
 		8C227091214D4BDF007C78DB /* WeChatHookDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = WeChatHookDylib.mm; path = Logos/WeChatHookDylib.mm; sourceTree = "<group>"; };
 		8C227094214D4BDF007C78DB /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
 		8C227096214D4BE0007C78DB /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
@@ -73,6 +101,34 @@
 		8C2270A9214D4BE0007C78DB /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
 		8C2270AB214D4BE0007C78DB /* WeChatHookDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatHookDylib.h; sourceTree = "<group>"; };
 		8C2270AD214D4BE0007C78DB /* WeChatHookDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatHookDylib.m; sourceTree = "<group>"; };
+		8C2270F1214D4E3A007C78DB /* TKEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEditViewController.h; sourceTree = "<group>"; };
+		8C2270F2214D4E3A007C78DB /* TKEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEditViewController.m; sourceTree = "<group>"; };
+		8C2270F3214D4E3A007C78DB /* TKChatRoomSensitiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKChatRoomSensitiveViewController.m; sourceTree = "<group>"; };
+		8C2270F4214D4E3A007C78DB /* EmoticonGameCheat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoticonGameCheat.h; sourceTree = "<group>"; };
+		8C2270F5214D4E3B007C78DB /* EmoticonGameCheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmoticonGameCheat.m; sourceTree = "<group>"; };
+		8C2270F6214D4E3B007C78DB /* TKChatRoomSensitiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKChatRoomSensitiveViewController.h; sourceTree = "<group>"; };
+		8C2270FD214D4E46007C78DB /* TKRobotConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRobotConfig.m; sourceTree = "<group>"; };
+		8C2270FE214D4E46007C78DB /* TKRobotConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKRobotConfig.h; sourceTree = "<group>"; };
+		8C2270FF214D4E46007C78DB /* TKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSettingViewController.h; sourceTree = "<group>"; };
+		8C227100214D4E46007C78DB /* TKMultiSelectContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMultiSelectContactsViewController.h; sourceTree = "<group>"; };
+		8C227101214D4E46007C78DB /* TKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSettingViewController.m; sourceTree = "<group>"; };
+		8C227102214D4E46007C78DB /* TKMultiSelectContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMultiSelectContactsViewController.m; sourceTree = "<group>"; };
+		8C227109214D4E52007C78DB /* UIScreen+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Extend.m"; sourceTree = "<group>"; };
+		8C22710A214D4E52007C78DB /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		8C22710B214D4E52007C78DB /* TKToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKToast.m; sourceTree = "<group>"; };
+		8C22710C214D4E52007C78DB /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		8C22710D214D4E52007C78DB /* Tweak.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Tweak.mm; sourceTree = "<group>"; };
+		8C22710E214D4E52007C78DB /* TKToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKToast.h; sourceTree = "<group>"; };
+		8C22710F214D4E52007C78DB /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		8C227110214D4E52007C78DB /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		8C227111214D4E52007C78DB /* UIScreen+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Extend.h"; sourceTree = "<group>"; };
+		8C22711B214D4E5A007C78DB /* WeChatRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRobot.h; sourceTree = "<group>"; };
+		8C22711D214D4E63007C78DB /* zhFullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhFullView.h; sourceTree = "<group>"; };
+		8C22711E214D4E64007C78DB /* zhFullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhFullView.m; sourceTree = "<group>"; };
+		8C22711F214D4E64007C78DB /* zhIconLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhIconLabel.m; sourceTree = "<group>"; };
+		8C227120214D4E64007C78DB /* zhPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhPopupController.h; sourceTree = "<group>"; };
+		8C227121214D4E64007C78DB /* zhPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhPopupController.m; sourceTree = "<group>"; };
+		8C227122214D4E64007C78DB /* zhIconLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhIconLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +213,7 @@
 				8C2270AB214D4BE0007C78DB /* WeChatHookDylib.h */,
 				8C2270AD214D4BE0007C78DB /* WeChatHookDylib.m */,
 				8C22708F214D4BDF007C78DB /* Logos */,
+				8C2270F0214D4E19007C78DB /* src */,
 				8C227093214D4BDF007C78DB /* Tools */,
 				8C227098214D4BE0007C78DB /* MethodTrace */,
 				8C2270A3214D4BE0007C78DB /* AntiAntiDebug */,
@@ -220,6 +277,41 @@
 			name = fishhook;
 			sourceTree = "<group>";
 		};
+		8C2270F0214D4E19007C78DB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8C22711B214D4E5A007C78DB /* WeChatRobot.h */,
+				8C2270F4214D4E3A007C78DB /* EmoticonGameCheat.h */,
+				8C2270F5214D4E3B007C78DB /* EmoticonGameCheat.m */,
+				8C2270F6214D4E3B007C78DB /* TKChatRoomSensitiveViewController.h */,
+				8C2270F3214D4E3A007C78DB /* TKChatRoomSensitiveViewController.m */,
+				8C2270F1214D4E3A007C78DB /* TKEditViewController.h */,
+				8C2270F2214D4E3A007C78DB /* TKEditViewController.m */,
+				8C227100214D4E46007C78DB /* TKMultiSelectContactsViewController.h */,
+				8C227102214D4E46007C78DB /* TKMultiSelectContactsViewController.m */,
+				8C2270FE214D4E46007C78DB /* TKRobotConfig.h */,
+				8C2270FD214D4E46007C78DB /* TKRobotConfig.m */,
+				8C2270FF214D4E46007C78DB /* TKSettingViewController.h */,
+				8C227101214D4E46007C78DB /* TKSettingViewController.m */,
+				8C22710E214D4E52007C78DB /* TKToast.h */,
+				8C22710B214D4E52007C78DB /* TKToast.m */,
+				8C22710D214D4E52007C78DB /* Tweak.mm */,
+				8C227110214D4E52007C78DB /* UIColor+Extend.h */,
+				8C22710F214D4E52007C78DB /* UIColor+Extend.m */,
+				8C227111214D4E52007C78DB /* UIScreen+Extend.h */,
+				8C227109214D4E52007C78DB /* UIScreen+Extend.m */,
+				8C22710C214D4E52007C78DB /* UIView+Layout.h */,
+				8C22710A214D4E52007C78DB /* UIView+Layout.m */,
+				8C22711D214D4E63007C78DB /* zhFullView.h */,
+				8C22711E214D4E64007C78DB /* zhFullView.m */,
+				8C227122214D4E64007C78DB /* zhIconLabel.h */,
+				8C22711F214D4E64007C78DB /* zhIconLabel.m */,
+				8C227120214D4E64007C78DB /* zhPopupController.h */,
+				8C227121214D4E64007C78DB /* zhPopupController.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -227,11 +319,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C227104214D4E47007C78DB /* TKRobotConfig.h in Headers */,
+				8C22711A214D4E52007C78DB /* UIScreen+Extend.h in Headers */,
+				8C2270FA214D4E3B007C78DB /* EmoticonGameCheat.h in Headers */,
 				8C227095214D4BDF007C78DB /* LLDBTools.h in Headers */,
 				8C2270AC214D4BE0007C78DB /* WeChatHookDylib.h in Headers */,
+				8C22711C214D4E5A007C78DB /* WeChatRobot.h in Headers */,
 				8C22709E214D4BE0007C78DB /* MethodTrace.h in Headers */,
+				8C227117214D4E52007C78DB /* TKToast.h in Headers */,
 				8C22709A214D4BE0007C78DB /* ANYMethodLog.h in Headers */,
+				8C2270F7214D4E3B007C78DB /* TKEditViewController.h in Headers */,
+				8C227105214D4E47007C78DB /* TKSettingViewController.h in Headers */,
+				8C227128214D4E64007C78DB /* zhIconLabel.h in Headers */,
+				8C2270FC214D4E3B007C78DB /* TKChatRoomSensitiveViewController.h in Headers */,
+				8C227123214D4E64007C78DB /* zhFullView.h in Headers */,
+				8C227119214D4E52007C78DB /* UIColor+Extend.h in Headers */,
 				8C2270AA214D4BE0007C78DB /* fishhook.h in Headers */,
+				8C227106214D4E47007C78DB /* TKMultiSelectContactsViewController.h in Headers */,
+				8C227115214D4E52007C78DB /* UIView+Layout.h in Headers */,
+				8C227126214D4E64007C78DB /* zhPopupController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,13 +486,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C227107214D4E47007C78DB /* TKSettingViewController.m in Sources */,
+				8C227116214D4E52007C78DB /* Tweak.mm in Sources */,
+				8C2270F9214D4E3B007C78DB /* TKChatRoomSensitiveViewController.m in Sources */,
+				8C2270FB214D4E3B007C78DB /* EmoticonGameCheat.m in Sources */,
+				8C227108214D4E47007C78DB /* TKMultiSelectContactsViewController.m in Sources */,
 				8C2270A0214D4BE0007C78DB /* MethodTrace.m in Sources */,
 				8C2270AE214D4BE0007C78DB /* WeChatHookDylib.m in Sources */,
 				8C2270A5214D4BE0007C78DB /* AntiAntiDebug.m in Sources */,
+				8C227112214D4E52007C78DB /* UIScreen+Extend.m in Sources */,
+				8C227113214D4E52007C78DB /* UIView+Layout.m in Sources */,
 				8C227092214D4BDF007C78DB /* WeChatHookDylib.mm in Sources */,
+				8C227125214D4E64007C78DB /* zhIconLabel.m in Sources */,
 				8C22709C214D4BE0007C78DB /* ANYMethodLog.m in Sources */,
+				8C2270F8214D4E3B007C78DB /* TKEditViewController.m in Sources */,
+				8C227124214D4E64007C78DB /* zhFullView.m in Sources */,
+				8C227118214D4E52007C78DB /* UIColor+Extend.m in Sources */,
 				8C2270A8214D4BE0007C78DB /* fishhook.c in Sources */,
+				8C227127214D4E64007C78DB /* zhPopupController.m in Sources */,
 				8C227097214D4BE0007C78DB /* LLDBTools.mm in Sources */,
+				8C227114214D4E52007C78DB /* TKToast.m in Sources */,
+				8C227103214D4E47007C78DB /* TKRobotConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
