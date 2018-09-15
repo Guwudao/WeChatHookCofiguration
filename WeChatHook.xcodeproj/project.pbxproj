@@ -53,6 +53,23 @@
 		8C227126214D4E64007C78DB /* zhPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227120214D4E64007C78DB /* zhPopupController.h */; };
 		8C227127214D4E64007C78DB /* zhPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227121214D4E64007C78DB /* zhPopupController.m */; };
 		8C227128214D4E64007C78DB /* zhIconLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227122214D4E64007C78DB /* zhIconLabel.h */; };
+		8C227153214D50B8007C78DB /* WBBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22714D214D50B7007C78DB /* WBBaseViewController.h */; };
+		8C227154214D50B8007C78DB /* WBMultiSelectGroupsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22714E214D50B7007C78DB /* WBMultiSelectGroupsViewController.h */; };
+		8C227155214D50B8007C78DB /* WBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22714F214D50B7007C78DB /* WBBaseViewController.m */; };
+		8C227156214D50B8007C78DB /* WBMultiSelectGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227150214D50B8007C78DB /* WBMultiSelectGroupsViewController.m */; };
+		8C227157214D50B8007C78DB /* WBReceiveRedEnvelopOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227151214D50B8007C78DB /* WBReceiveRedEnvelopOperation.h */; };
+		8C227158214D50B8007C78DB /* WBReceiveRedEnvelopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227152214D50B8007C78DB /* WBReceiveRedEnvelopOperation.m */; };
+		8C22715F214D50D9007C78DB /* WBRedEnvelopTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227159214D50D9007C78DB /* WBRedEnvelopTaskManager.m */; };
+		8C227160214D50D9007C78DB /* WBRedEnvelopConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22715A214D50D9007C78DB /* WBRedEnvelopConfig.h */; };
+		8C227161214D50D9007C78DB /* WBRedEnvelopParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22715B214D50D9007C78DB /* WBRedEnvelopParamQueue.h */; };
+		8C227162214D50D9007C78DB /* WBRedEnvelopConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22715C214D50D9007C78DB /* WBRedEnvelopConfig.m */; };
+		8C227163214D50D9007C78DB /* WBRedEnvelopParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22715D214D50D9007C78DB /* WBRedEnvelopParamQueue.m */; };
+		8C227164214D50D9007C78DB /* WBRedEnvelopTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22715E214D50D9007C78DB /* WBRedEnvelopTaskManager.h */; };
+		8C227166214D50E3007C78DB /* WeChatRedEnvelop.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227165214D50E3007C78DB /* WeChatRedEnvelop.h */; };
+		8C22716B214D50EE007C78DB /* WeChatRedEnvelopParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227167214D50EE007C78DB /* WeChatRedEnvelopParam.m */; };
+		8C22716C214D50EE007C78DB /* WeChatRedEnvelopParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C227168214D50EE007C78DB /* WeChatRedEnvelopParam.h */; };
+		8C22716D214D50EE007C78DB /* WBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C227169214D50EE007C78DB /* WBSettingViewController.m */; };
+		8C22716E214D50EE007C78DB /* WBSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C22716A214D50EE007C78DB /* WBSettingViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +146,23 @@
 		8C227120214D4E64007C78DB /* zhPopupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhPopupController.h; sourceTree = "<group>"; };
 		8C227121214D4E64007C78DB /* zhPopupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhPopupController.m; sourceTree = "<group>"; };
 		8C227122214D4E64007C78DB /* zhIconLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhIconLabel.h; sourceTree = "<group>"; };
+		8C22714D214D50B7007C78DB /* WBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseViewController.h; sourceTree = "<group>"; };
+		8C22714E214D50B7007C78DB /* WBMultiSelectGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBMultiSelectGroupsViewController.h; sourceTree = "<group>"; };
+		8C22714F214D50B7007C78DB /* WBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBaseViewController.m; sourceTree = "<group>"; };
+		8C227150214D50B8007C78DB /* WBMultiSelectGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBMultiSelectGroupsViewController.m; sourceTree = "<group>"; };
+		8C227151214D50B8007C78DB /* WBReceiveRedEnvelopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBReceiveRedEnvelopOperation.h; sourceTree = "<group>"; };
+		8C227152214D50B8007C78DB /* WBReceiveRedEnvelopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBReceiveRedEnvelopOperation.m; sourceTree = "<group>"; };
+		8C227159214D50D9007C78DB /* WBRedEnvelopTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopTaskManager.m; sourceTree = "<group>"; };
+		8C22715A214D50D9007C78DB /* WBRedEnvelopConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopConfig.h; sourceTree = "<group>"; };
+		8C22715B214D50D9007C78DB /* WBRedEnvelopParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopParamQueue.h; sourceTree = "<group>"; };
+		8C22715C214D50D9007C78DB /* WBRedEnvelopConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopConfig.m; sourceTree = "<group>"; };
+		8C22715D214D50D9007C78DB /* WBRedEnvelopParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopParamQueue.m; sourceTree = "<group>"; };
+		8C22715E214D50D9007C78DB /* WBRedEnvelopTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopTaskManager.h; sourceTree = "<group>"; };
+		8C227165214D50E3007C78DB /* WeChatRedEnvelop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelop.h; sourceTree = "<group>"; };
+		8C227167214D50EE007C78DB /* WeChatRedEnvelopParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatRedEnvelopParam.m; sourceTree = "<group>"; };
+		8C227168214D50EE007C78DB /* WeChatRedEnvelopParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelopParam.h; sourceTree = "<group>"; };
+		8C227169214D50EE007C78DB /* WBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSettingViewController.m; sourceTree = "<group>"; };
+		8C22716A214D50EE007C78DB /* WBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSettingViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +248,7 @@
 				8C2270AD214D4BE0007C78DB /* WeChatHookDylib.m */,
 				8C22708F214D4BDF007C78DB /* Logos */,
 				8C2270F0214D4E19007C78DB /* src */,
+				8C22714C214D5087007C78DB /* RedEnvelop */,
 				8C227093214D4BDF007C78DB /* Tools */,
 				8C227098214D4BE0007C78DB /* MethodTrace */,
 				8C2270A3214D4BE0007C78DB /* AntiAntiDebug */,
@@ -312,6 +347,30 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		8C22714C214D5087007C78DB /* RedEnvelop */ = {
+			isa = PBXGroup;
+			children = (
+				8C227165214D50E3007C78DB /* WeChatRedEnvelop.h */,
+				8C22714D214D50B7007C78DB /* WBBaseViewController.h */,
+				8C22714F214D50B7007C78DB /* WBBaseViewController.m */,
+				8C22714E214D50B7007C78DB /* WBMultiSelectGroupsViewController.h */,
+				8C227150214D50B8007C78DB /* WBMultiSelectGroupsViewController.m */,
+				8C227151214D50B8007C78DB /* WBReceiveRedEnvelopOperation.h */,
+				8C227152214D50B8007C78DB /* WBReceiveRedEnvelopOperation.m */,
+				8C22715A214D50D9007C78DB /* WBRedEnvelopConfig.h */,
+				8C22715C214D50D9007C78DB /* WBRedEnvelopConfig.m */,
+				8C22715B214D50D9007C78DB /* WBRedEnvelopParamQueue.h */,
+				8C22715D214D50D9007C78DB /* WBRedEnvelopParamQueue.m */,
+				8C22715E214D50D9007C78DB /* WBRedEnvelopTaskManager.h */,
+				8C227159214D50D9007C78DB /* WBRedEnvelopTaskManager.m */,
+				8C22716A214D50EE007C78DB /* WBSettingViewController.h */,
+				8C227169214D50EE007C78DB /* WBSettingViewController.m */,
+				8C227168214D50EE007C78DB /* WeChatRedEnvelopParam.h */,
+				8C227167214D50EE007C78DB /* WeChatRedEnvelopParam.m */,
+			);
+			path = RedEnvelop;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -320,24 +379,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C227104214D4E47007C78DB /* TKRobotConfig.h in Headers */,
+				8C22716C214D50EE007C78DB /* WeChatRedEnvelopParam.h in Headers */,
 				8C22711A214D4E52007C78DB /* UIScreen+Extend.h in Headers */,
 				8C2270FA214D4E3B007C78DB /* EmoticonGameCheat.h in Headers */,
 				8C227095214D4BDF007C78DB /* LLDBTools.h in Headers */,
+				8C227166214D50E3007C78DB /* WeChatRedEnvelop.h in Headers */,
+				8C227154214D50B8007C78DB /* WBMultiSelectGroupsViewController.h in Headers */,
+				8C227164214D50D9007C78DB /* WBRedEnvelopTaskManager.h in Headers */,
 				8C2270AC214D4BE0007C78DB /* WeChatHookDylib.h in Headers */,
 				8C22711C214D4E5A007C78DB /* WeChatRobot.h in Headers */,
 				8C22709E214D4BE0007C78DB /* MethodTrace.h in Headers */,
 				8C227117214D4E52007C78DB /* TKToast.h in Headers */,
+				8C227161214D50D9007C78DB /* WBRedEnvelopParamQueue.h in Headers */,
 				8C22709A214D4BE0007C78DB /* ANYMethodLog.h in Headers */,
 				8C2270F7214D4E3B007C78DB /* TKEditViewController.h in Headers */,
 				8C227105214D4E47007C78DB /* TKSettingViewController.h in Headers */,
 				8C227128214D4E64007C78DB /* zhIconLabel.h in Headers */,
+				8C22716E214D50EE007C78DB /* WBSettingViewController.h in Headers */,
 				8C2270FC214D4E3B007C78DB /* TKChatRoomSensitiveViewController.h in Headers */,
 				8C227123214D4E64007C78DB /* zhFullView.h in Headers */,
+				8C227157214D50B8007C78DB /* WBReceiveRedEnvelopOperation.h in Headers */,
 				8C227119214D4E52007C78DB /* UIColor+Extend.h in Headers */,
+				8C227160214D50D9007C78DB /* WBRedEnvelopConfig.h in Headers */,
 				8C2270AA214D4BE0007C78DB /* fishhook.h in Headers */,
 				8C227106214D4E47007C78DB /* TKMultiSelectContactsViewController.h in Headers */,
 				8C227115214D4E52007C78DB /* UIView+Layout.h in Headers */,
 				8C227126214D4E64007C78DB /* zhPopupController.h in Headers */,
+				8C227153214D50B8007C78DB /* WBBaseViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,22 +555,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C227107214D4E47007C78DB /* TKSettingViewController.m in Sources */,
+				8C227156214D50B8007C78DB /* WBMultiSelectGroupsViewController.m in Sources */,
 				8C227116214D4E52007C78DB /* Tweak.mm in Sources */,
 				8C2270F9214D4E3B007C78DB /* TKChatRoomSensitiveViewController.m in Sources */,
+				8C227162214D50D9007C78DB /* WBRedEnvelopConfig.m in Sources */,
 				8C2270FB214D4E3B007C78DB /* EmoticonGameCheat.m in Sources */,
 				8C227108214D4E47007C78DB /* TKMultiSelectContactsViewController.m in Sources */,
 				8C2270A0214D4BE0007C78DB /* MethodTrace.m in Sources */,
 				8C2270AE214D4BE0007C78DB /* WeChatHookDylib.m in Sources */,
 				8C2270A5214D4BE0007C78DB /* AntiAntiDebug.m in Sources */,
 				8C227112214D4E52007C78DB /* UIScreen+Extend.m in Sources */,
+				8C227158214D50B8007C78DB /* WBReceiveRedEnvelopOperation.m in Sources */,
 				8C227113214D4E52007C78DB /* UIView+Layout.m in Sources */,
 				8C227092214D4BDF007C78DB /* WeChatHookDylib.mm in Sources */,
 				8C227125214D4E64007C78DB /* zhIconLabel.m in Sources */,
 				8C22709C214D4BE0007C78DB /* ANYMethodLog.m in Sources */,
+				8C227163214D50D9007C78DB /* WBRedEnvelopParamQueue.m in Sources */,
+				8C22716D214D50EE007C78DB /* WBSettingViewController.m in Sources */,
 				8C2270F8214D4E3B007C78DB /* TKEditViewController.m in Sources */,
 				8C227124214D4E64007C78DB /* zhFullView.m in Sources */,
 				8C227118214D4E52007C78DB /* UIColor+Extend.m in Sources */,
+				8C227155214D50B8007C78DB /* WBBaseViewController.m in Sources */,
 				8C2270A8214D4BE0007C78DB /* fishhook.c in Sources */,
+				8C22715F214D50D9007C78DB /* WBRedEnvelopTaskManager.m in Sources */,
+				8C22716B214D50EE007C78DB /* WeChatRedEnvelopParam.m in Sources */,
 				8C227127214D4E64007C78DB /* zhPopupController.m in Sources */,
 				8C227097214D4BE0007C78DB /* LLDBTools.mm in Sources */,
 				8C227114214D4E52007C78DB /* TKToast.m in Sources */,
